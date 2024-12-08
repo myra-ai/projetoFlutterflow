@@ -12,5 +12,5 @@ class Event extends Model
     protected $table = 'eventos'; 
 
     // Campos que podem ser preenchidos em massa
-    protected $fillable = ['title', 'date', 'image', 'details'];
+    protected $fillable = ['title', 'date', 'image', 'details','valor'];
 }
